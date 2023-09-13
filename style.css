@@ -1,0 +1,22 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* .main-logo {
+    height: 70px;
+} */
+
+.nav-icon {
+    width: 25px;
+}
+
+.post-btn {
+    width: 100%;
+    font-weight: 600;
+}
+
+.material-icons {
+    font-size: 30px;
+}
