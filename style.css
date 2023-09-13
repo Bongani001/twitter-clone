@@ -20,3 +20,8 @@
 .material-icons {
     font-size: 30px;
 }
+
+.nav-hover:hover {
+    background-color: lightgrey;
+    cursor: pointer;
+}
