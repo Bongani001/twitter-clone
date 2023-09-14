@@ -25,3 +25,10 @@
     background-color: lightgrey;
     cursor: pointer;
 }
+
+.no-border {
+    border: 0;
+    outline: none;
+    line-break: auto;
+    resize: none;
+}
