@@ -38,7 +38,7 @@
 }
 
 .post-action:hover, .post-action-options:hover {
-    color: #0d6efd;
+    color: #0d6efd !important;
 }
 
 .post-action:hover > .material-icons-outlined, .share-icon:hover, .post-action-options:hover {
