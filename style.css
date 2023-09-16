@@ -33,6 +33,10 @@
     resize: none;
 }
 
+.sidebar {
+    overflow-y: auto;
+}
+
 .post-actions > div > span, .post-actions > span {
     font-size: 0.9rem;
 }
@@ -41,9 +45,13 @@
     color: #0d6efd !important;
 }
 
-.post-action:hover > .material-icons-outlined, .share-icon:hover, .post-action-options:hover {
+.post-action:hover > .material-icons-outlined, .share-icon:hover, .post-action-options:hover, .post-addition:hover {
     background-color: #dce5f1;
     border-radius: 50%;
+}
+
+.post-addition:hover {
+    cursor: pointer;
 }
 
 .post-action-repost:hover > .material-icons-outlined {
