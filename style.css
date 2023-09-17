@@ -4,9 +4,9 @@
     box-sizing: border-box;
 }
 
-/* .main-logo {
-    height: 70px;
-} */
+img {
+    cursor: pointer;
+}
 
 .nav-icon {
     width: 25px;
@@ -26,6 +26,16 @@
     cursor: pointer;
 }
 
+.trends-hover:hover {
+    background-color: rgb(235, 235, 235);
+    cursor: pointer;
+}
+
+.posts-hover:hover {
+    background-color: rgb(247, 246, 246);
+    cursor: pointer;
+}
+
 .no-border {
     border: 0;
     outline: none;
@@ -35,6 +45,10 @@
 
 .sidebar {
     overflow-y: auto;
+}
+
+.fs-small {
+    font-size: 0.9rem;
 }
 
 .post-actions > div > span, .post-actions > span {
@@ -48,6 +62,7 @@
 .post-action:hover > .material-icons-outlined, .share-icon:hover, .post-action-options:hover, .post-addition:hover {
     background-color: #dce5f1;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .post-addition:hover {
@@ -57,11 +72,13 @@
 .post-action-repost:hover > .material-icons-outlined {
     background-color: #d9f8da;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .post-action-heart:hover > .material-icons-outlined {
     background-color: #f7e4e4;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .post-action-repost:hover {
@@ -80,4 +97,21 @@
 .main-top-transparent {
     background-color: rgb(255, 255, 255, 0.8);
     backdrop-filter: blur(20px);
+}
+
+.footer {
+    font-size: 0.8rem;
+}
+
+.footer > span:not(.d-flex):hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer > span:nth-child(6) > span:nth-child(1):hover {
+    text-decoration: underline;
+}
+
+.bg-rightbar {
+    background-color: #f7f9f9;
 }
